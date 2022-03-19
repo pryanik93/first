@@ -17,19 +17,19 @@ def main():
 	else:
 		c = random.choice(action)
 	if c == plus:
-		#print(num2words(a, lang='ru'), "плюс", num2words(b, lang='ru'), "равно")
+		print(num2words(a, lang='ru'), "плюс", num2words(b, lang='ru'), "равно")
 		#print(num2words(a, lang='pt'), "mais", num2words(b, lang='pt'), "é igual a")
-		print(num2words(a, lang='en'), "plus", num2words(b, lang='en'), "equal")
+		#print(num2words(a, lang='en'), "plus", num2words(b, lang='en'), "equal")
 		print(a, "+", b, "=")
 	else:
-		#print(num2words(a, lang='ru'), "минус", num2words(b, lang='ru'), "равно")
+		print(num2words(a, lang='ru'), "минус", num2words(b, lang='ru'), "равно")
 		#print(num2words(a, lang='pt'), "menos", num2words(b, lang='pt'), "é igual a")
-		print(num2words(a, lang='en'), "minus", num2words(b, lang='en'), "equal")
+		#print(num2words(a, lang='en'), "minus", num2words(b, lang='en'), "equal")
 		print(a, "-", b, "=")
 	value = int(input())
 	if n == 19:
 		os.system('cls||clear')
-		print("DONE!")
+		print("Молодец! Возьми огурец")
 		exit(1)
 	else:
 		if value == c:
