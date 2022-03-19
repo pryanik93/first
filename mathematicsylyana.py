@@ -6,7 +6,7 @@ from num2words import num2words
 n = 0
 def main():
 	global n
-	a = random.randint(10,40)
+	a = random.randint(0,20)
 	b = random.randint(10,59)
 	plus = a+b
 	minus = a-b
