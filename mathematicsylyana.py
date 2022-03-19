@@ -4,6 +4,7 @@ import os
 from num2words import num2words
 
 n = 0
+
 def main():
 	global n
 	a = random.randint(0,20)
