@@ -7,7 +7,7 @@ n = 0
 def main():
 	global n
 	a = random.randint(0,20)
-	b = random.randint(10,59)
+	b = random.randint(0,20)
 	plus = a+b
 	minus = a-b
 	action = [plus, minus]
